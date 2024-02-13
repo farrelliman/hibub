@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "LoveLight";
+    src: url(LoveLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Pangolin";
+    src: url(Pangolin-Regular.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Pink */
+    background-image: url('Tricera right.png');
+    background-size: 150px; /* Adjust size of hearts */
+    background-repeat: repeat; /* Repeat hearts */
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust the width as needed */
+    position: relative; /* Enable positioning for overlay */
+    z-index: 1; /* Ensure content is on top of the overlay */
+}
+
+.container span{color: #ac1201;}
+
+h1 {
+    color: #e74c3c; /* Red */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 15px; /* Rounded corners */
+    display: inline-block; /* Ensure background fits content */
+    font-family: "Pangolin";
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #07466f; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Pangolin";
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue */
+}
+
+.button-text {
+    margin-top: 12px; /* Adjust spacing */
+    font-size: 14px; /* Adjust font size */
+    color: #ffffff; /* Adjust color */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.letter {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative; /* Ensure content is positioned relative to its container */
+    z-index: 2; /* Ensure content is on top of the background image */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow */
+    color: black;
+    border-radius: 15px; /* Rounded corners */
+}
+
+.header {
+    border-bottom: 1px solid #ccc; /* Gray border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Pangolin";
+    font-size: large;
+}
+
+.header p {
+    margin: 0;
+}
+
+.content {
+    text-align: left; /* Align text to the left */
+}
+
+h2 {
+    color: #e74c3c; /* Red */
+    font-family: "LoveLight";
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: "Pangolin";
+}
+
+.letter-image {
+    max-width: 100%;
+    max-height: 80vh; /* Adjust the maximum height as needed */
+}
+
+.open-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #07466f; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.open-button:hover {
+    background-color: #2980b9; /* Darker blue */
+}
+
+.instruction {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Pangolin";
+    font-size: large;
+}
